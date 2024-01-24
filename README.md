@@ -18,7 +18,7 @@ And then give yourself write access to `/sys/class/vtconsole/vtcon1/bind`*. This
 
 *This is so the program can unbind the virtual console to avoid weird flickering issues.
 
-## How co compile
+## How to compile
 
 ```sh
 $ cross build --target arm-unknown-linux-gnueabihf --release --bin <game name>
